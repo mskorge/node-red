@@ -1,4 +1,4 @@
-FROM nodered/node-red-docker
+FROM nodered/node-red-docker:latest
 ENV TZ="Europe/Stockholm"
 
 RUN apt-get install -y nano
